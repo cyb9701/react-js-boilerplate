@@ -4,7 +4,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: 'airbnb',
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'eslint-config-prettier',
+    'airbnb',
+    'prettier',
+  ],
   overrides: [
     {
       env: {
