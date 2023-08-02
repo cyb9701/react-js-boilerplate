@@ -29,7 +29,6 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'react/destructuring-assignment': [0, 'always'],
-    'react/jsx-props-no-spreading': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
